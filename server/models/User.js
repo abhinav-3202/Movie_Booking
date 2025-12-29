@@ -3,7 +3,7 @@ import { use } from "react";
 
 const userSchema =  new mongoose.Schema(
     {
-        _id : {
+        userId : {
             type: String,
             required : true,
             unique: true,
